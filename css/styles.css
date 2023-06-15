@@ -2,25 +2,23 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: #434455;
-  background-color: var( --background-own);
+  background-color: var(--background-own);
   text-decoration: none;
 }
 :root {
   --second-font: "Raleway", sans-serif;
-  --ctas-norm:  #4D5AE5;
-  --ctas-activ: #404BBF;
-  --headings-three: #2E2F42;
+  --ctas-norm: #4d5ae5;
+  --ctas-activ: #404bbf;
+  --headings-three: #2e2f42;
   --body-text: #434455;
-  --background-own: #FFFFFF;
-  --background-light: #F4F4FD;
-
+  --background-own: #ffffff;
+  --background-light: #f4f4fd;
 }
 
 .own-header {
-  
 }
 .list {
- list-style: none
+  list-style: none;
 }
 .link {
   text-decoration: none;
@@ -33,7 +31,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var( --ctas-norm);
+  color: var(--ctas-norm);
 }
 .logo-stud,
 .logo-stud-foot {
@@ -43,10 +41,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var( --headings-three);
+  color: var(--headings-three);
 }
 .logo-stud-foot {
- color: var ( --headings-three);
+  color: var(--headings-three);
 }
 .ul-head {
 }
@@ -54,17 +52,17 @@ body {
   text-decoration: none;
 }
 .Studio-link {
-  color: var (--headings-three);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-   letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
+  color: var(--headings-three);
 }
 .Studio-link:hover,
 .Studio-link:focus {
-  color: #404bbf ;
+  color: #404bbf;
 }
 
 .address-head {
@@ -76,9 +74,9 @@ body {
   font-style: normal;
 }
 .own-mail {
-  color: var(--Body-text);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--body-text);
 }
 .own-mail:hover,
 .own-mail:focus,
@@ -88,10 +86,10 @@ body {
 
 .own-main {
 }
-.hero { 
+.hero {
   background: var(--headings-three);
 }
-.hero-tit-1 {
+.hero-tit-one {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -102,77 +100,75 @@ body {
 }
 .hero-butt {
   color: #ffffff;
-  background-color: #4D5AE5;
-   font-family: "Roboto", sans-serif;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer
+  cursor: pointer;
 }
 .hero-butt:hover,
 .hero-butt:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 .benef {
 }
 
 .benef-list {
 }
-.benef-tit-3 {
+.benef-tit-three {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--headings-3);
+  color: var(--headings-three);
 }
 .text-strat {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--Body-text)
-  
- 
+  color: var(--Body-text);
 }
 
 .opport {
 }
 
-.opport-tit-2 {
+.opport-tit-two {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--headings-3);
+  color: var(--headings-three);
 }
 .opport-list {
 }
 
 .we-are {
-  background-color: #F4F4FD
+  background-color: #f4f4fd;
 }
-.we-are-tit-2 {
+.we-are-tit-two {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--headings-3);
+  color: var(--headings-three);
 }
 .ul-we-are {
 }
 .we-are-list {
-  background-color: #FFFFFF
+  background-color: #ffffff;
 }
 .we-are-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
   color: var(--headings-3);
 }
 .name-text {
@@ -195,13 +191,17 @@ body {
   color: var(--background-light);
 }
 .logofoot-link {
-  font-family:'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--CTAs-norm);
+  color: var(--ctas-norm);
+}
+.logo-stud-foot {
+  color: #f4f4fd;
+}
 
 /* PAGE-2 */
 
@@ -217,14 +217,14 @@ body {
 /*our prodgect*/
 .progect-list {
 }
-.prodgect-ti-2 {
+.prodgect-ti-two {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--headings);
+  color: var(--headings-three);
 }
 .prodgect-text {
   font-family: "Roboto";
@@ -235,18 +235,21 @@ body {
   letter-spacing: 0.02em;
   color: var(--Body-text);
 }
-.but-list {
-  font-family: "Roboto";
+.but {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
-  color: var(--CTAs-norm);
-  background: #f4f4fd;
+  color: var(--ctas-norm);
+  background-color: var(--background-light);
+  cursor: pointer;
 }
-.butt {
+
+.butt:hover,
+.butt:focus {
   color: #ffffff;
-  background: var(--CTAs-activ);
+  background-color: #404bbf;
 }
