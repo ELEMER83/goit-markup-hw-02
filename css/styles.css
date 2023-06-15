@@ -73,7 +73,7 @@ body {
 .addres-link {
   font-style: normal;
 }
-.own-mail {
+.own-mail-mail {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text);
@@ -169,7 +169,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--headings-3);
+  color: var(--headings-three);
 }
 .name-text {
   font-weight: 400;
@@ -235,7 +235,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--Body-text);
 }
-.but {
+.butt {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
