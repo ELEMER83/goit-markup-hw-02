@@ -51,7 +51,7 @@ body {
 .head-link {
   text-decoration: none;
 }
-.Studio-link {
+.Studio-link-nav {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -78,9 +78,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--body-text);
 }
-.own-mail:hover,
-.own-mail:focus,
-.own-mail:active {
+.own-mail-mail:hover,
+.own-mail-mail:focus,
+.own-mail-mail:active {
   color: #404bbf;
 }
 
@@ -235,7 +235,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--Body-text);
 }
-.butt {
+.butt-filtr-all {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -248,8 +248,8 @@ body {
   cursor: pointer;
 }
 
-.butt:hover,
-.butt:focus {
+.butt-filtr-all:hover,
+.butt-filtr-all:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
