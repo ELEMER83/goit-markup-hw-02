@@ -194,7 +194,7 @@ body {
   color: var(--background-light);
 }
 .logofoot-link {
-  font-family: var(--second-font);
+  font-family:'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
