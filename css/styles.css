@@ -2,17 +2,17 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: #434455;
-  background-color: var(--background-own);
+  background-color: var( --background-own);
   text-decoration: none;
 }
 :root {
   --second-font: "Raleway", sans-serif;
-  --CTAs-norm: color: #4D5AE5;
-  --CTAs-activ: color: #404BBF;
-  --headings-3: color: #2E2F42;
-  --Body-text: color: #434455;
-  --background-own: background-color: #FFFFFF;
-  --background-light: background-color: #F4F4FD
+  --ctas-norm:  #4D5AE5;
+  --ctas-activ: #404BBF;
+  --headings-three: #2E2F42;
+  --body-text: #434455;
+  --background-own: #FFFFFF;
+  --background-light: #F4F4FD;
 
 }
 
@@ -33,7 +33,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--CTAs-norm);
+  color: var( --ctas-norm);
 }
 .logo-stud,
 .logo-stud-foot {
@@ -43,17 +43,18 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--headings);
+  color: var( --headings-three);
 }
 .logo-stud-foot {
-  color: var(--headings-3);
+ color: var ( --headings-three);
+}
 .ul-head {
 }
 .head-link {
   text-decoration: none;
 }
 .Studio-link {
-  color: var(--headings-3);
+  color: var (--headings-three);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -88,7 +89,7 @@ body {
 .own-main {
 }
 .hero { 
-  background: var(--headings-3);
+  background: var(--headings-three);
 }
 .hero-tit-1 {
   font-style: normal;
@@ -182,7 +183,7 @@ body {
   color: var(--Body-text);
 }
 .own-footer {
-  background-color: var(--headings-3);
+  background-color: var(--headings-three);
 }
 .text-footer {
   font-family: "Roboto", sans-serif;
