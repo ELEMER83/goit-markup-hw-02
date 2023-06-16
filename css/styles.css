@@ -51,7 +51,7 @@ body {
 .head-link {
   text-decoration: none;
 }
-.Studio-link {
+.studio-link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -60,8 +60,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--headings-three);
 }
-.Studio-link:hover,
-.Studio-link:focus {
+.studio-link:hover,
+.studio-link:focus {
   color: #404bbf;
 }
 
